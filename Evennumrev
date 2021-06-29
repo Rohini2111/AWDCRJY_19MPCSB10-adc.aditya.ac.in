@@ -1,0 +1,29 @@
+class Evennumrev
+ {
+ 		public static void main(String[] args) 
+ 		{ 
+ 			int n=10,m=20;
+ 			int rev=0;
+ 			while (m>=n)
+ 			{
+ 			 if (m%2==0)
+ 			    System.out.println(m+" ");
+ 			    m--;
+ 	}
+ 		}
+ }
+
+
+
+Output:
+20
+28
+26
+24
+22
+20
+18
+16
+14
+12
+10
