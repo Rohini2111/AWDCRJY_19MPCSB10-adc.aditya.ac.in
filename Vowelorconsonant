@@ -1,0 +1,21 @@
+class Vowelorconsonant
+ {
+ 		public static void main(String[] args) 
+ 		{ 
+ 			char ch='r';
+ 			switch (ch)
+ 			{
+ 				case 'a':
+ 			    case 'e':
+ 			    case 'i':
+ 			    case '0':
+ 			    case 'u':
+ 			    System.out.println(ch+   "is vowel");
+ 			    break;
+ 			}
+ 			    System.out.println(ch+ " is consonant");
+ 			}
+ 		}
+
+Output:
+r is consonant
