@@ -1,0 +1,23 @@
+class Evenandoddnumbers
+{
+public static void main(String args[])
+{
+int num=123456, rem;
+int even=0,odd=0;
+while(num>0)
+{
+rem=num%10;
+if(rem%2==0)
+   even++;
+else  
+  odd++;
+num=num/10;
+}
+System.out.println("Even numbers:"+even);
+System.out.println("Odd numbers:"+odd);
+}
+}
+ 
+Output:
+Even numbers:3
+Odd numbers:3
