@@ -1,0 +1,28 @@
+import java.util.*;
+public class Main
+  {
+	public static void main(String[] args) 
+	{
+	 int n,i,j;
+	 Scanner sc=new Scanner(System.in);
+	 n=sc.nextInt();
+	 System.out.println("enter a number");
+	 for(i=n;i>0;i--)
+	 {
+	    for(j=i;j>0;j--)
+		 {
+	         System.out.println("* ");
+		 }
+		  System.out.print("\n");
+		 }
+	 }
+}
+
+-------------
+enter a number
+5
+*****
+****
+***
+**
+*
