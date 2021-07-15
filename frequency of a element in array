@@ -1,0 +1,42 @@
+import java.util.*; 
+public class Main
+{
+    public static void main(String[] args) 
+   {
+    Scanner sc=new Scanner(System.in); 
+    System.out.println(" Enter the size of array");
+    int n=sc.nextInt();
+    int arr[]=new int[n]; 
+    System.out.println(" Enter the elements in array");
+    for (int i=0;i<n;i++)
+    arr[i]=sc.nextInt();
+    System.out.println(" Enter the num");
+    int k=0;
+    arr[k]=sc.nextInt();
+    frequency(k);
+   }
+ static void frequency(int k)
+    {
+        int n=5;
+      int  arr[]=new int[n];
+       int count=0;
+      // for( k=i;k<n;k++)//
+       {
+        if (arr[k]==arr[k])
+       count++;
+       }
+    System.out.print(count); 
+    }
+
+}
+
+
+-------------------------------------
+output:
+Enter the size of array
+5
+Enter the elements in array
+8 6 5 8 8
+Enter the num
+8
+3
